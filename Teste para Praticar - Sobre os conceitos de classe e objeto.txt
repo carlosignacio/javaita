@@ -1,0 +1,13 @@
+Sobre os conceitos de classe e objeto
+
+1 - classes e objetos
+2 - Classe é uma abstração e objeto é uma instância concreta
+3 - Encosto
+4 - V - Os objetos são criados a partir de classes
+5 - F - Uma classe é que descreve o tipo de objeto
+6 - V - Os objetos respresentam instâncias individuais de uma classe
+7 - Podemos criar tantos objetos dessa classe quanto desejarmos
+8 - Um programa java em execução é composto de objetos das classes do fonte java correspondente, 
+	comunicando-se pela troca de mensagens ou invocação de métodos;
+	
+	Um programa fonte java é composto de classes java;

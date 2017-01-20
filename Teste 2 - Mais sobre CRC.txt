@@ -1,0 +1,16 @@
+﻿1. Quando um objeto A envia uma mensagem a outro objeto B, diz-se o seguinte no contexto de CRC:
+- B colabora com A
+
+2. Num projeto orientado a objetos, você identifica classes, determina as responsabilidades das classes e descreve os relacionamentos entre classes. No contexto de cartões CRC, relacionamentos entre classes corresponde a _____________ entre classes! 
+
+3. O método "acelerar" da classe Carro constitui uma realização de uma responsabilidade do tipo ______________!
+- Colaboração
+
+
+4. A lógica de "responsabilidade do tipo faz" corresponde a:
+- Ações que a responsabilidade deve realizar
+- Algoritmo da responsabilidade ou método correspondente
+- Receita do qu deve ser reito pela responsabilidade
+
+
+5. O que é colaboração?

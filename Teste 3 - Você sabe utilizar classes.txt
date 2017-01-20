@@ -1,0 +1,40 @@
+﻿1. Qual o operador que utilizamos para instanciar o objeto de uma classe?
+- new
+
+
+2. Podem haver classes com o mesmo nome?
+- 
+
+
+3. Uma classe sempre tem um construtor?
+- Sim
+
+
+4. Quando uma classe tem mais de um construtor, o que não deve ser igual entre eles?
+- 
+
+
+5. Como deve ser o papel de uma classe em um software orientado a objetos?
+- Ela deve implementar parte da funcionalidade do sistema e colaborar com outras classes para completar a funcionalidade delas
+
+
+
+6. Marque a alternativa correta sobre um atributo estático:
+- Não precisa de uma instancia da classe para ser acessado
+
+
+7. Marque a alternativa correta sobre métodos estáticos:
+- Pode ser utilizado o import static para que não precise ser referenciado o nome da classe
+
+
+8. Qual o problema no método abaixo?
+
+public static double calcularSalario(Funcionario f){
+ 
+	double semImposto = f.salarioBruto()*(1-f.aliquotaImposto());
+ 
+	return semImposto + f.bonus();
+
+}
+
+- Deveria ser um métodos de instância na classe funcionário

@@ -1,0 +1,40 @@
+﻿1. Na prática, uma responsabilidade é alguma coisa que um objeto sabe (conhece) ou faz, sozinho ou não
+- Verdadeiro
+
+
+2. Como exemplo de antropomorfismo: Um objeto Pedido conhece sua data de realização e sabe fazer o cálculo do seu total
+- Verdadeiro
+
+
+3. Se um objeto tem uma responsabilidade a qual não pode cumprir sozinho, ele deve solicitar ____________ de outros objetos.
+- Colaboração
+
+
+4. Quando um objeto A envia uma mensagem a outro objeto B, diz-se o seguinte no contexto de CRC:
+- B colabora com A
+
+
+5. A sigla CRC significa:
+- Classe-Responsabilidade-Colaborações
+
+
+6. Responsabilidade constitui o que a classe ___________ ou __________.
+- sabe/faz
+
+
+7. Podemos associar "responsabilidades do tipo faz" com ____________ de uma classe!
+- métodos
+
+
+8. Podemos associar "responsabilidades do tipo sabe" com _________________ de uma classe! 
+- estado
+
+
+9. Existem dois tipos de responsabilidades: responsabilidade do tipo _________ e responsabilidade do tipo ___________!
+- sabe/faz
+
+
+10. A lógica de "responsabilidade do tipo faz" corresponde a:
+- Ações que a responsabilidade deve realizar
+- Algoritmo da responsabilidade ou método correspondente
+- Receita do qu deve ser reito pela responsabilidade

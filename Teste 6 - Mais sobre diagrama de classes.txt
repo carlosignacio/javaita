@@ -1,0 +1,71 @@
+﻿1. A figura é um exemplo de:
+ 			
+			Mercadoria
+
+
+	Livro		Revista		Aplicativo
+
+- Herança
+
+
+
+2. A figura é um exemplo de:
+
+Classe A -------------------------------> Classe B
+
+- Depêndencia e Classe A depende da Classe B 
+
+
+x3. A figura é um exemplo de:
+
+Estudante ______________________________> Professor
+
+x- Dependência e a classe Estudante depende da Classe Professor
+- Associação unidirecional e a classe Estudante tem visibilidade da classe Professor, mas a classe Professor não tem visibilidade da classe Estudante
+
+
+x4. A figura é um exemplo de:
+
+Universidade <>___________________________Estudante
+
+x- Agregação e a classe Universidade agrega a classe Estudante
+- Composição e a classe Universidade tem a classe Estudante como componente
+
+
+5. Que relacionamento é apropriado entre os seguintes pares de classes: herança ("é–um"), associação, agregação ("tem–um") e composição ("tem–um"):
+Carro – Porta
+Caminhão – Veículo
+Tráfego – Sinal de Trânsito
+Sinal de Trânsito – Cor
+- Agregação - Herança - Associação - Composição
+
+
+6. Na agregação, se um objeto agregador for eliminado, os objetos agregados são eliminados também.
+- Falso
+
+
+
+7. Na composição, se um objeto que tem os objetos componentes for eliminado, os objetos componentes são eliminados também? Por quê?
+- Sim, porque, ao serem criados dentro do objeto como um componente, eles não tinham vida própria antes do objeto começar a criá-los.
+
+
+
+x8. Seja o trecho de código Java abaixo
+
+public class Faculdade {
+   
+	public Faculdade (Departamento departamento){
+      
+		_departamento = departamento;
+   
+	}
+
+. . .
+   
+	Departamento _departamento;
+
+}
+
+Considerando o relacionamento Faculdade–Departamento como sendo "tem–um" e a forma como esse relacionamento foi implementado no trecho acima, diga se a associação é uma agregação ou uma composição e por quê?
+x- Composição, porque, ao passar o objeto Departamento relacionado pelo construtor, significa que ele não tinha vida própria antes de ser associado ao objeto faculdade.
+- Agregação, porque, ao passar o objeto Departamento relacionado pelo construtor, significa que ele tinha vida própria antes de ser associado ao objeto Faculdade.

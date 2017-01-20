@@ -1,0 +1,26 @@
+﻿1. O que é um teste de unidade?
+- Que testa uma única classe ou um único método de classe do software
+
+
+
+2. Como é chamado o tipo de teste que verifica a funcionalidade de várias classes em conjunto?
+- Teste de Integração
+
+
+3. Qual anotação deve ser colocada antes de um método para ele ser considerado um método de teste no JUnit?
+- @Test
+
+
+4. Como comparar em um teste que o valor retornado é o mesmo que o esperado?
+- Com um método da classe Assert
+
+
+5. Em uma classe de teste com 5 testes, quantas vezes um método com a anotação @BeforeClass seria executado?
+- 1
+
+
+6. Considere que uma classe de teste tenha apenas um teste e métodos com @Before, @After, @BeforeClass e @AfterClass. Qual seria a ordem de execução desses métodos?
+- @BeforeClass, @Before, @After, @AfterClass
+
+
+

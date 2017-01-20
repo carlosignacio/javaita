@@ -1,0 +1,11 @@
+1 - 
+2 - F
+3 - V
+4 - F
+5 - V
+6 - F
+7 - HERANÇA
+8 - 
+9 - INTERFACE
+10 - POLIMORFISMO (O princípio de ______________________ permite que objetos que pertencem a diferentes classes respondam de forma distinta a mensagens idênticas. 
+11 - PRIVADAS

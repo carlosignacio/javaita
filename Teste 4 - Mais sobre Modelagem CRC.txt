@@ -1,0 +1,27 @@
+﻿1. Pode-se identificar potenciais objetos e classes por meio dos seguintes elementos gramaticais encontrados na especificação de requisitos do sistema:
+- nome (substantivo)
+- expressão substantivas
+
+
+2. O que é Modelagem CRC?
+- Uma abordagem informal para modelar as classes e objetos de uma aplicação com base em cartões CRC
+
+
+3. Por convenção, o nome de uma classe não pode ser plural
+- Verdadeiro
+
+
+4. Para se identificar as responsabilidades óbvias de uma classe, parte-se da ________________ dessa classe! 
+- descrição
+
+
+x 5. Pode-se identificar potenciais responsabilidades de duas maneiras:
+- Dada uma classe, procura-se identificar responsabilidades obvias
+
+
+6. Imagine um sistema bancário com duas classes: Banco e Conta; imagine que a classe Conta tenha as seguintes responsabilidades: "credita conta", "debita conta" e "obtém saldo corrente"; imagine que a classe Banco tenha a seguinte responsabilidade: "fornece saldo total". Ao definir a lógica da responsabilidade "fornece saldo total", você percebe que a responsabilidade "_______________" da classe Conta é sua colaboração!
+- obtem saldo corrente
+
+6. Imagine um sistema bancário com duas classes: Banco e Conta; imagine que a classe Conta tenha as seguintes responsabilidades: "credita conta", "debita conta" e "obtém saldo corrente"; imagine que a classe Banco tenha a seguinte responsabilidade: "fornece saldo total". Ao definir a lógica da responsabilidade "fornece saldo total", você percebe que Conta é classe ______________ da classe Banco!
+- Colaboradora
+
