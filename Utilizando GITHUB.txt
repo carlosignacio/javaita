@@ -1,0 +1,18 @@
+http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/
+
+
+git remote add origin git@github.com:carlosignacio/javaita.git
+git remote set-url origin git@github.com:carlosignacio/javaita.git
+
+git config --global user.email "cadardo@hotmail.com"
+git config --global user.name "carlos.ignacio"
+
+git clone https://github.com/carlosignacio/javaita.git
+
+carlosignacio @Um2345678 
+
+git pull
+git add .
+git commit -m "Arquivos e Aulas até video 29"
+git pull
+git push origin master

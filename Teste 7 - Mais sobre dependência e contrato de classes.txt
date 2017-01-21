@@ -5,13 +5,17 @@
 
 x2. Se método mA1( ) do objeto iA da classe A não pode funcionar direito sem a colaboração do método mB3( ) do objeto iB da classe B, então é correto dizer:
 x- Que a classe A depende da classe B!
-x- Que a classe A precisa da colaboração da classe B!
-x- Que a classe B é colaboradora da classe A
+x- Que a classe A precisa da colaboração da classe B!-----------------------------------Resposta Correta
+x- Que a classe B é colaboradora da classe A -----------------------------------Resposta Correta
+x- Que a classe B depende da Classe A -----------------------------------Resposta Correta
+x- Que a classe A não depende da classe B!
 
 x3. Se método mA2(D d) do objeto iA da classe A precisa da colaboração do método mD1 do objeto d, então é correto dizer:
-x- Que a classe A precisa da colaboração da classe D!
-x- Que a classe A depende da classe D!
-x- Que a classe D é colaboradora da classe A
+x- Que a classe A precisa da colaboração da classe D!-----------------------------------Resposta Correta
+x- Que a classe A depende da classe D!-----------------------------------Resposta Correta
+x- Que a classe D é colaboradora da classe A-----------------------------------Resposta Correta
+x- Que a classe D depende da A!
+x- Que a classe A não depende da classe D!
 
 4. Seja o seguinte trecho de código da classe A:
 
@@ -55,9 +59,9 @@ Então é correto dizer o seguinte:
 
 
 x7. Dependência da classe A com relação à classe B nem sempre é devida a algum tipo de relacionamento entre classes (herança, associação, agregação e composição). A dependência também pode ocorrer pelo seguinte:
-x- Objeto B é parâmetro de método de A
-x- Objeto B é colaboração oportunista dentro de método A
-x- 
+x- Objeto B é parâmetro de método de A-----------------------------------Resposta Correta
+x- Objeto B é colaboração oportunista dentro de método A-----------------------------------Resposta Correta
+x- Não ha dependência fora de relacionamentos do tipo herança, associação, agregação e composição!
 
 
 8. A responsabilidade "Anexa usuário do empréstimo" da classe Livro é pública porque a responsabilidade "Empresta livro" de Biblioteca precisa da colaboração dela.
