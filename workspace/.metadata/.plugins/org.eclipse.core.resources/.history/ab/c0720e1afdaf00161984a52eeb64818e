@@ -1,0 +1,43 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class Principal {
+	
+	static Connection conexao;
+	static String login;
+	static String senha;
+	static Integer idUsuarioLogado;
+	static boolean isAdmin = false;;
+	
+	public static void main(String[] args) throws SQLException {
+		//conexao = new ConnectionFactory().getConnection(TipoBancoDeDados.POSTGRES);
+		//System.out.println("Conectado!");
+		//JanelaLogin();
+		
+	}	
+	
+	public static void JanelaLogin() throws SQLException{
+
+		login = JOptionPane.showInputDialog(null, "Usuário:");
+		JPasswordField jpf = new JPasswordField();
+		JOptionPane.showMessageDialog(null, new Object[] { "Senha:", jpf });
+		senha = new String(jpf.getPassword());
+		String sql = "SELECT id, perfil FROM usuario WHERE login = ? AND senha = ?";
+		PreparedStatement stmt = conexao.prepareStatement(sql);
+		stmt.setString(1, login);
+		stmt.setString(2, senha);
+
+		// executa
+		ResultSet resultado = stmt.executeQuery();
+		boolean isLogado = false;
+	
+	}
+
+}

@@ -1,0 +1,38 @@
+﻿1. Sobre um método abstrato:
+x - Pode ser implementado em classe abstrata que estende a classe abstrata
+x - Pode ser implementado em classe não abstrata que estende classe abstrata
+x - Pode existir em classes concretas
+
+2. Uma classe abstrata:
+- Não pode ter modificador Final
+- Não pode ser instanciada
+
+3. Um método privado pode ser sobrescrito em uma subclasse?
+- Não
+
+4. Qual dos modificadores abaixo não impede o método de ser sobrescrito?
+x - static
+- protected
+
+
+5. Quais as duas opções válidas para o primeiro comando executado em um construtor?
+- Chamar construtor da superclasse
+- Chamar construtor da própria classe
+
+6. É possível haver uma classe sem construtor em Java?
+- Não é possível
+
+7. Imagine uma classe Veiculo que possui um método acelera() e uma classe Carro, que estende a classe Veiculo e sobrescreve o método acelera().
+
+Veiculo instancia  = new Carro();
+
+instancia.acelera();
+
+Se eu rodar o código acima, que implementação de acelera() será executada?
+
+x - Por uma questão de indefinição, o código não compila
+- O método acelera() da classe Carro
+
+8. Marque o correto a respeito de um atributo com modificador final
+x - Não pode ser sobrescrito na subclasse
+x - Só pode ser acessado de dentro da classe

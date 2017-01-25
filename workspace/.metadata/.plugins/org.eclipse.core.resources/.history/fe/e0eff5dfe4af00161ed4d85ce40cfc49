@@ -1,0 +1,45 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
+
+public class Principal {
+
+	static String login;
+	static String senha;
+	static boolean isAdmin = false;;
+	
+	public static void main(String[] args) {
+		
+		JanelaLogin();
+		
+	}	
+	
+	public static void JanelaLogin()  {
+
+		
+		
+		//JFrame frame = new JFrame();//tela principal
+		//JButton botao = new JButton();//botao da tela principal
+	
+		//frame.getContentPane().add(botao); //botao da tela principal
+		//frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Fechar tela principal on X
+		//frame.setSize(300, 300);//tamanho da tela principal
+		//frame.setVisible(true);//visibilitade da tela principal
+
+		login = JOptionPane.showInputDialog(null, "Qual o seu login?");
+		JPasswordField jpf = new JPasswordField();
+		JOptionPane.showMessageDialog(null, new Object[] { "Senha", jpf });
+		senha = new String(jpf.getPassword());
+		String sql = "SELECT id, perfil FROM usuario WHERE login = ? AND senha = ?";
+		//PreparedStatement stmt = conexao.prepareStatement(sql);
+		//stmt.setString(1, login);
+		//stmt.setString(2, senha);
+
+		// executa
+		//ResultSet resultado = stmt.executeQuery();
+		boolean isLogado = false;
+	
+	}
+
+}

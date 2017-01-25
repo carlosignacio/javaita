@@ -1,0 +1,56 @@
+﻿1. Uma classe pode estender mais de uma classe em Java?
+- Não
+
+
+2. Que palavra é utilizada em Java para estabelecer um relacionamento de herança entre duas classes?
+- extends
+
+x3. Uma classe pode estender uma classe que já estende uma outra classe?
+x- Não
+
+4. Uma subclasse pode adicionar um método que não existia na superclasse?
+- Sim
+
+
+5. Uma subclasse pode remover um atributo da superclasse?
+- Não
+
+
+6. Dada a classe Carro, com o método privado metPriv( ), bem como dois objetos de Carro, carro1 e carro2; em quais trechos de código e respectivos contextos abaixo é válido enviar mensagem metPriv( ):
+- this.metPriv();//[Contexto de método público de Carro]
+
+
+7. Suponha que a classe Livro tenha o seguinte método privado:
+
+private void metodoPrivado( ){
+
+	. . .
+
+}
+
+Suponha agora que a classe LivroInfantil seja subclasse de Livro e tenha o seguinte método público, que tenta usar o metodoPrivado( ) da classe Livro:
+
+public void metodoInfantil( ){
+   
+	. . .
+   
+	this.metodoPrivado( );
+   
+	. . .
+
+}
+
+Obviamente, não funcionaria, porque o metodoPrivado( ) de Livro não é visível em LivroInfantil por ser privado. Contudo, e se substituirmos "this" por "super"? Irá funcionar?
+
+public void metodoInfantil( ){
+   
+	. . .
+   
+	super.metodoPrivado( );
+   
+	. . .
+
+}
+
+- Não
+

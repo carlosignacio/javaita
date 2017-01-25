@@ -1,0 +1,7 @@
+
+public class PaiDeTodos {
+	
+	public PaiDeTodos(){
+		System.out.println("Constutor Pai de Todos");
+	}
+}

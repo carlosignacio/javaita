@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TesteContaCorrente {
+
+	@Test
+	public void deposito() {
+		ContaCorrente cc = new ContaCorrente();
+		cc.depositar(200);
+		assertEquals(200,cc.saldo);
+	}
+	
+	@Test
+	public void saque() {
+		ContaCorrente cc = new ContaCorrente();
+		cc.depositar(200);
+		int valorSacado = cc.sacar(50);
+		assertEquals(150,cc.saldo);
+		assertEquals(valorSacado, 50);
+	}
+
+}

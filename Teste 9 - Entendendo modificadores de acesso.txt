@@ -1,0 +1,19 @@
+﻿x1. Como um atributo privado de um objeto da classe A pode ser alterado por um objeto de outra classe B?
+x- Nunca poderá ser feito
+- Por meio de métodos públicos da classe A ou, quando a classe B, for subclasse de A, por meio de métodos protegidos;
+
+2. Qual seria o melhor tipo de modificador de acesso para um método auxiliar utilizado somente por métodos da própria classe?
+- private
+
+3. Imagine que uma classe A possua um método privado mPriv( ). Imagine ainda que foi criada uma subclasse B para essa classe que agora precisa também acessar o método mPriv( ). Qual modificador de acesso você deve utilizar em mPriv( )?
+- Protected
+
+4. Um método que pode ser acessado pela subclasse, sempre poderá ser acessado por uma classe do mesmo pacote?
+- Sim
+
+
+x5. Como um atributo privado de um objeto da classe A pode ser alterado por um outro objeto da própria classe A?
+x- Diretamente através do acesso privador da classe A
+x - Por meio de métodos protegidos da classe A
+
+

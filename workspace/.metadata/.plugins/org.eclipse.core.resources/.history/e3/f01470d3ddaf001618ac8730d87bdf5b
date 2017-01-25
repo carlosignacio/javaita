@@ -1,0 +1,26 @@
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		JanelaLogin();
+	}	
+	
+	public static void JanelaLogin() {
+	
+	JFrame frame = new JFrame();
+	
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setSize(300, 300);
+	frame.setVisible(true);
+
+	
+	}
+	public static String MenuPrincipal() {
+		String menu = " ";
+		menu += "Digite 3 para Logar no Sistema";
+		return menu;
+	}
+}

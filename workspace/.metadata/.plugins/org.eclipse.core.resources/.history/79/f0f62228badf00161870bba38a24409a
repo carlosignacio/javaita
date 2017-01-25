@@ -1,0 +1,29 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class testePizzaria {
+
+	@Test
+	public void tesAdicionaPizza() {
+		Pizza p = new Pizza();
+		p.adicionaIngrediente("Marguerita");
+		p.adicionaIngrediente("Portuguesa");
+		p.adicionaIngrediente("Calabreza");
+		assertEquals(3,p.qtdIngrediente);
+	}
+
+}
+
+
+//@Test
+//public void testFrearAteZero() {
+//	Carro c = new Carro();
+//	c.potencia = 10;
+//	c.acelerar();
+//  c.frear();
+//	c.frear();
+//	c.frear();
+//	c.frear();
+//	assertEquals(0,c.getVelocidade());
+//}

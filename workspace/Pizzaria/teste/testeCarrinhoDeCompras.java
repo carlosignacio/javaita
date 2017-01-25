@@ -1,0 +1,56 @@
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class testeCarrinhoDeCompras {
+
+	@Test
+	public void testCarrinho() {
+		Pizza p1 = new Pizza();
+		p1.adicionaIngrediente("Marguerita");
+		assertEquals(15,p1.getPreco());
+		
+		Pizza p2 = new Pizza();
+		p2.adicionaIngrediente("Marguerita");
+		p2.adicionaIngrediente("Portuguesa");
+		assertEquals(20,p2.getPreco());
+		
+		Pizza p3 = new Pizza();
+		p3.adicionaIngrediente("Marguerita");
+		p3.adicionaIngrediente("Portuguesa");
+		p3.adicionaIngrediente("Calabreza");
+		assertEquals(23,p3.getPreco());
+		
+		Pizza p4 = new Pizza();
+		p4.adicionaIngrediente("Marguerita");
+		p4.adicionaIngrediente("Portuguesa");
+		p4.adicionaIngrediente("Calabreza");
+		p4.adicionaIngrediente("4 Queijos");
+		assertEquals(23,p4.getPreco());
+		
+		
+	}
+	
+	@Test
+	public void testPedidoPizza() {
+		
+		Pizza mussarela = new Pizza();
+		mussarela.adicionaIngrediente("mussarela");
+		
+		Pizza portuguesa = new Pizza();
+		portuguesa.adicionaIngrediente("mussarela");
+		portuguesa.adicionaIngrediente("tomate");
+		portuguesa.adicionaIngrediente("ovo");
+		portuguesa.adicionaIngrediente("presunto");
+		portuguesa.adicionaIngrediente("oregano");
+
+		CarrinhoDeCompras cc = new CarrinhoDeCompras();
+		
+		cc.pedidoPizza(portuguesa);
+		cc.pedidoPizza(mussarela);
+		assertEquals(46, CarrinhoDeCompras.compras);
+		
+
+	}
+}

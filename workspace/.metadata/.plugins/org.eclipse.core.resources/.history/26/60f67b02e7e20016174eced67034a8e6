@@ -1,0 +1,8 @@
+
+public class PaiDeTodos {
+	
+	public PaiDeTodos(String s){
+		super("parametro");
+		System.out.println("Constutor Pai de Todos"+s);
+	}
+}

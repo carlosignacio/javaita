@@ -1,0 +1,42 @@
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		int menuPrincipal = Integer.parseInt(JOptionPane.showInputDialog(null, MenuPrincipal(), "Gerenciamento de usuários", JOptionPane.DEFAULT_OPTION));
+		switch (menuPrincipal) {
+		case 1:
+			//cadastrarUsuario();
+			break;
+		case 2:
+			//consultarUsuario();
+			break;
+		case 3:
+			JanelaLogin();;
+			break;
+		default:
+			JOptionPane.showMessageDialog(null, "Opção do menu inválida!");
+			break;
+		}
+	}	
+	
+	public static void JanelaLogin() {
+	
+	JFrame frame = new JFrame();
+	
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setSize(300, 300);
+	frame.setVisible(true);
+
+	
+	}
+	public static String MenuPrincipal() {
+		String menu = " ";
+		menu += "1 - Cadastrar Novo";
+		menu += "\n 2 - Consultar Existentes";
+		menu += "\n 3 - Logar no Sistema";
+		return menu;
+	}
+}
